@@ -85,20 +85,20 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 85F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(462, 311);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(462, 314);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // chkCategoryName
             // 
             this.chkCategoryName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkCategoryName.AutoSize = true;
-            this.chkCategoryName.Location = new System.Drawing.Point(216, 117);
+            this.chkCategoryName.Location = new System.Drawing.Point(216, 120);
             this.chkCategoryName.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkCategoryName.Name = "chkCategoryName";
             this.chkCategoryName.Size = new System.Drawing.Size(243, 17);
@@ -111,7 +111,7 @@
             this.chkGameName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkGameName.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.chkGameName, 3);
-            this.chkGameName.Location = new System.Drawing.Point(7, 117);
+            this.chkGameName.Location = new System.Drawing.Point(7, 120);
             this.chkGameName.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkGameName.Name = "chkGameName";
             this.chkGameName.Size = new System.Drawing.Size(199, 17);
@@ -126,7 +126,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(3, 32);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(456, 76);
+            this.groupBox2.Size = new System.Drawing.Size(456, 79);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Title Color";
@@ -145,8 +145,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(450, 57);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(450, 60);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // chkColor
@@ -240,7 +239,7 @@
             // 
             this.chkAttemptCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkAttemptCount.AutoSize = true;
-            this.chkAttemptCount.Location = new System.Drawing.Point(216, 146);
+            this.chkAttemptCount.Location = new System.Drawing.Point(216, 149);
             this.chkAttemptCount.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkAttemptCount.Name = "chkAttemptCount";
             this.chkAttemptCount.Size = new System.Drawing.Size(243, 17);
@@ -253,7 +252,7 @@
             this.chkFinishedRuns.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkFinishedRuns.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.chkFinishedRuns, 3);
-            this.chkFinishedRuns.Location = new System.Drawing.Point(7, 146);
+            this.chkFinishedRuns.Location = new System.Drawing.Point(7, 149);
             this.chkFinishedRuns.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkFinishedRuns.Name = "chkFinishedRuns";
             this.chkFinishedRuns.Size = new System.Drawing.Size(199, 17);
@@ -265,7 +264,7 @@
             // 
             this.chkDisplayGameIcon.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkDisplayGameIcon.AutoSize = true;
-            this.chkDisplayGameIcon.Location = new System.Drawing.Point(7, 175);
+            this.chkDisplayGameIcon.Location = new System.Drawing.Point(7, 178);
             this.chkDisplayGameIcon.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkDisplayGameIcon.Name = "chkDisplayGameIcon";
             this.chkDisplayGameIcon.Size = new System.Drawing.Size(141, 17);
@@ -278,7 +277,7 @@
             this.tableLayoutPanel1.SetColumnSpan(this.groupBox3, 4);
             this.groupBox3.Controls.Add(this.tableLayoutPanel4);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(3, 235);
+            this.groupBox3.Location = new System.Drawing.Point(3, 238);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(456, 73);
             this.groupBox3.TabIndex = 41;
@@ -342,7 +341,7 @@
             // 
             this.chkSingleLine.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chkSingleLine.AutoSize = true;
-            this.chkSingleLine.Location = new System.Drawing.Point(216, 175);
+            this.chkSingleLine.Location = new System.Drawing.Point(216, 178);
             this.chkSingleLine.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.chkSingleLine.Name = "chkSingleLine";
             this.chkSingleLine.Size = new System.Drawing.Size(243, 17);
@@ -354,7 +353,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 208);
+            this.label2.Location = new System.Drawing.Point(3, 211);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 13);
             this.label2.TabIndex = 44;
@@ -370,7 +369,7 @@
             "Automatic (Based on Icon)",
             "Left",
             "Center"});
-            this.cmbTextAlignment.Location = new System.Drawing.Point(154, 204);
+            this.cmbTextAlignment.Location = new System.Drawing.Point(154, 207);
             this.cmbTextAlignment.Name = "cmbTextAlignment";
             this.cmbTextAlignment.Size = new System.Drawing.Size(305, 21);
             this.cmbTextAlignment.TabIndex = 45;
@@ -383,7 +382,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "TitleSettings";
             this.Padding = new System.Windows.Forms.Padding(7);
-            this.Size = new System.Drawing.Size(476, 325);
+            this.Size = new System.Drawing.Size(476, 328);
             this.Load += new System.EventHandler(this.TitleSettings_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
